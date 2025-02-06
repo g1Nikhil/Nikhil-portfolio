@@ -1,4 +1,4 @@
-import logo from "E:/reactPortfolio/src/assets/Ng.png";
+import logo from "../assets/Ng.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
