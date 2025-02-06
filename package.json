@@ -1,6 +1,5 @@
 {
   "name": "reactportfolio",
-  "homepage": "https://g1Nikhil.github.io/Nikihl-Portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "framer-motion": "^12.3.1",
