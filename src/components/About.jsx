@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 //import { motion } from "framer-motion";
 const About = () => {
   return (
-    <div className="border-b border-neutral-500 p-24">
+    <div className="border-b border-neutral-900 p-24 lg:mb-35">
       <motion.h1 className="my-20 text-center text-4xl">
         About
         <span className="text-yellow-300 "> Me</span>
@@ -34,7 +34,7 @@ const About = () => {
         >
           <div className="flex justify-center lg:justify-start">
             <motion.p className="my-2 max-w-xl py-6 ">
-              {" "}
+      
               I am a dedicated and versatile Frontend developer with a passion
               for creating efficient and user-friendly web applications. I
               specialize in React.js, JavaScript, and Tailwind CSS, leveraging

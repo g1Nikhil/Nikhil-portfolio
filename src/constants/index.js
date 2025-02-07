@@ -39,6 +39,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Indore, India",
-  phoneNo: "9669611269",
+  phoneNo: "+91 96696-11269",
   email: "nikhilgoswami891@gmail.com",
 };
