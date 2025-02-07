@@ -1,13 +1,13 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io";
 import { TbBrandTailwind } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
+// import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiExpress } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
+// import { TbBrandNextjs } from "react-icons/tb";
+// import { SiExpress } from "react-icons/si";
+// import { DiRedis } from "react-icons/di";
 import { SiMysql } from "react-icons/si";
 import { FaJava } from "react-icons/fa6";
 import { motion } from "framer-motion";
@@ -44,14 +44,14 @@ const Technology = () => {
         transition={{ duration: 1.5 }}
         className="flex flex-wrap items-center justify-center gap-4"
       >
-        <motion.div
+        {/* <motion.div
           variants={iconVariants(1)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <TbBrandNextjs className="text-7xl text-white" />
-        </motion.div>
+        </motion.div> */}
 
         <motion.div
           variants={iconVariants(2)}
@@ -62,32 +62,32 @@ const Technology = () => {
           <SiMysql className="text-7xl text-[#00758F]" />
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           variants={iconVariants(1)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiMongodb className="text-7xl text-[#47A248]" />
-        </motion.div>
+        </motion.div> */}
 
-        <motion.div
+        {/* <motion.div
           variants={iconVariants(2)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <DiRedis className="text-7xl text-[#DC382D]" />
-        </motion.div>
+        </motion.div> */}
 
-        <motion.div
+        {/* <motion.div
           variants={iconVariants(1)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiExpress className="text-7xl text-white" />
-        </motion.div>
+        </motion.div> */}
 
         <motion.div
           variants={iconVariants(2)}
@@ -107,14 +107,7 @@ const Technology = () => {
           <RiReactjsLine className="text-7xl text-[#61DAFB]" />
         </motion.div>
 
-        <motion.div
-          variants={iconVariants(1)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <FaJava className="text-7xl text-[#EA2D2E]" />
-        </motion.div>
+        
 
         <motion.div
           variants={iconVariants(2)}
@@ -151,6 +144,16 @@ const Technology = () => {
         >
           <FaHtml5 className="text-7xl text-[#E34F26]" />
         </motion.div>
+
+        <motion.div
+          variants={iconVariants(1)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaJava className="text-7xl text-[#EA2D2E]" />
+        </motion.div>
+
       </motion.div>
     </div>
   );

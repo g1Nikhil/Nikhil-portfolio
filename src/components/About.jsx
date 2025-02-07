@@ -35,16 +35,18 @@ const About = () => {
           <div className="flex justify-center lg:justify-start">
             <motion.p className="my-2 max-w-xl py-6 ">
               {" "}
-              I am a dedicated and versatile full stack developer with a passion
-              for creating efficient and user-friendly web applications. I have
-              knowledge of varieties of technologies, including React, Next.js,
-              Node.js, MySQL, and MongoDB. My journey in web development began
-              with a deep curiosity for how things work, and it has evolved into
-              a career where I continuously strive to learn and adapt to new
+              I am a dedicated and versatile Frontend developer with a passion
+              for creating efficient and user-friendly web applications. I
+              specialize in React.js, JavaScript, and Tailwind CSS, leveraging
+              these technologies to build modern, responsive, and
+              high-performance interfaces. My journey in web development began
+              with a deep curiosity about how things work, which has evolved
+              into a career where I continuously learn and adapt to new
               challenges. I thrive in collaborative environments and enjoy
-              solving complex problems to deliver high-quality solutions.
-              Outside of coding, I enjoy staying active, exploring new
-              technologies, and contributing to open-source projects.
+              solving complex problems to deliver high-quality solutions. Beyond
+              coding, I love exploring new technologies, staying updated with
+              industry trends, and refining my skills to create seamless user
+              experiences.
             </motion.p>
           </div>
         </motion.div>

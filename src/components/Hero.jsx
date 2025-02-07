@@ -31,7 +31,7 @@ const Hero = () => {
               animate="visible"
               className=" text-yellow-400  text-3xl tracking-tight"
             >
-              Full Stack Developer
+              Frontend Developer
             </motion.span>
 
             <motion.p
@@ -40,12 +40,15 @@ const Hero = () => {
               animate="visible"
               className="my-3 max-w-xl py-6 font-light tracking-tight"
             >
-              I am a passionate full stack developer with a knack for crafting
-              robust and scalable web applications. I have honed my skills in
-              front-end technologies like React and Next.js, as well as back-end
-              technologies like Node.js, MySQL, and MongoDB. My goal is to
-              leverage my expertise to create innovative solutions that drive
-              business growth and deliver exceptional user experiences.
+              Hi, I’m Nikhil, a passionate Frontend Developer specializing in
+              building modern, responsive, and high-performance web
+              applications. I thrive on crafting user-friendly interfaces with
+              React.js, JavaScript, and Tailwind CSS to deliver seamless digital
+              experiences. With a strong foundation in UI/UX principles, I focus
+              on writing clean, efficient, and scalable code to create visually
+              appealing and interactive applications. I enjoy solving complex
+              problems, optimizing performance, and staying updated with the
+              latest trends in frontend development.
             </motion.p>
           </div>
         </div>
